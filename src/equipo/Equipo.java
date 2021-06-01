@@ -2,10 +2,10 @@ package equipo;
 
 public class Equipo {
 	
-	private String nombre;
-	private String apellido;
-	private String dni;
-	private String estado;
+	protected String nombre;
+	protected String apellido;
+	protected String dni;
+	protected String estado;
 	
 	public Equipo (String nombre, String apellido, String dni, String estado) {
 		this.setNombre(nombre);
